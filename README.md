@@ -12,7 +12,7 @@ It ensures data integrity by enforcing strict ownership validation — only the 
 The project also records all transactions, ensuring transparent trading history between buyers and sellers.
 
 ![image](https://github.com/saad-noman/revive-motors/blob/82e16b0bb2a89b82f0cef80aba1a478a9241005f/Revive-Motors.png)
-![image](https://github.com/saad-noman/revive-motors/blob/82e16b0bb2a89b82f0cef80aba1a478a9241005f/Revive%20Motors%20Extended.png)
+![image](https://github.com/saad-noman/revive-motors/blob/f293dc2417324d1f9b86d6e302ecffdbba275f11/Revive%20Motors%20Extended.png)
 
 ---
 
@@ -98,6 +98,7 @@ The system uses **PostgreSQL** for data storage and Django’s **ORM** for safe 
 - Undergraduate CSE Student, BRAC University
 
 ---
+
 
 
 
