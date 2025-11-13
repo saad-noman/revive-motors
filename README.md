@@ -95,9 +95,10 @@ The system uses **PostgreSQL** for data storage and Django’s **ORM** for safe 
 ## 👨‍💻 Author
 
 **Saad Noman Adeeb**
-Undergraduate Student
-Department of Computer Science and Engineering
-BRAC University
-Dhaka, Bangladesh
+- Undergraduate Student
+- Department of Computer Science and Engineering
+- BRAC University
+- Dhaka, Bangladesh
 
 ---
+
