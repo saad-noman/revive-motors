@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Car</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Abel", serif;
+            font-weight: 500;
+            font-size: large;
+            font-style: normal;
+            background-color: #1a1a1a;
+            color: #adadad;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    
+        h1 {
+            color: #00bcd4;
+        }
+    
+        .car-details {
+            background-color: #101010;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    
+        .car-details p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+    
+        button {
+            background-color: #00bcd4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+    
+        button:hover {
+            background-color: #0097a7;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transaction</h1>
+    <div class="car-details">
+        {% if transaction %}
+            <p>Car Traded: {{transaction.car}}</p>
+            <p>Buyer: {{transaction.buyer}}</p>
+            <p>Seller: {{transaction.seller}}</p>
+            <p>Price: ${{transaction.price}}</p>
+        {% else %}
+            <p>{{error}}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
