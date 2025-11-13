@@ -1,7 +1,7 @@
 # 🚗 Revive Motors
 
 **Revive Motors** is a web-based platform for buying and selling reconditioned cars.  
-Developed using **Django**, **PostgreSQL**, and **basic HTML/CSS**, it provides a smooth trading experience while maintaining secure user access and data consistency through **MVT architecture** and **Django ORM**. This project was built as part of the **CSE370: Database** course lab completion requirement during the **Fall2024** semester in **BRAC University**.
+Developed using **Django**, **PostgreSQL**, and **basic HTML/CSS**, it provides a smooth trading experience while maintaining secure user access and data consistency through **MVT architecture** and **Django ORM**.
 
 ---
 
@@ -98,5 +98,6 @@ The system uses **PostgreSQL** for data storage and Django’s **ORM** for safe 
 - Undergraduate CSE Student, BRAC University
 
 ---
+
 
 
